@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ajang\\Desktop\\AmazonRepo\\AWS_LambdaShopping\\LambdaShoppingList\\LambdaShoppingList.csproj": {}
+    "/Users/ngwesseelvis/Desktop/projects/Lambda_Repo/LambdaShoppingList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ajang\\Desktop\\AmazonRepo\\AWS_LambdaShopping\\LambdaShoppingList\\LambdaShoppingList.csproj": {
+    "/Users/ngwesseelvis/Desktop/projects/Lambda_Repo/LambdaShoppingList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ajang\\Desktop\\AmazonRepo\\AWS_LambdaShopping\\LambdaShoppingList\\LambdaShoppingList.csproj",
+        "projectUniqueName": "/Users/ngwesseelvis/Desktop/projects/Lambda_Repo/LambdaShoppingList.csproj",
         "projectName": "LambdaShoppingList",
-        "projectPath": "C:\\Users\\ajang\\Desktop\\AmazonRepo\\AWS_LambdaShopping\\LambdaShoppingList\\LambdaShoppingList.csproj",
-        "packagesPath": "C:\\Users\\ajang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ajang\\Desktop\\AmazonRepo\\AWS_LambdaShopping\\LambdaShoppingList\\obj\\",
+        "projectPath": "/Users/ngwesseelvis/Desktop/projects/Lambda_Repo/LambdaShoppingList.csproj",
+        "packagesPath": "/Users/ngwesseelvis/.nuget/packages/",
+        "outputPath": "/Users/ngwesseelvis/Desktop/projects/Lambda_Repo/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ajang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ngwesseelvis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }
