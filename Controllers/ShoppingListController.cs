@@ -1,4 +1,5 @@
 ﻿using LambdaShoppingList.Services;
+using LambdaShoppingList.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LambdaShoppingList.Controllers

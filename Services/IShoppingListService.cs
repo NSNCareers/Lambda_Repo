@@ -1,4 +1,4 @@
-﻿using LambdaShoppingList.Controllers;
+﻿using LambdaShoppingList.Models;
 using System.Collections.Generic;
 
 namespace LambdaShoppingList.Services

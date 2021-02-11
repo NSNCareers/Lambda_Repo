@@ -1,4 +1,4 @@
-﻿namespace LambdaShoppingList.Controllers
+﻿namespace LambdaShoppingList.Models
 {
     public class ShoppingListModel
     {

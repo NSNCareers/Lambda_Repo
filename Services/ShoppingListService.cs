@@ -1,4 +1,5 @@
-﻿using LambdaShoppingList.Controllers;
+﻿using LambdaShoppingList.Models;
+using System;
 using System.Collections.Generic;
 
 namespace LambdaShoppingList.Services
@@ -14,25 +15,50 @@ namespace LambdaShoppingList.Services
 
         public void AddItemToShoppingList(ShoppingListModel shoppingList)
         {
-
-            _shoppingListStorage.Add(shoppingList.Name,shoppingList.Quantity);
+            try
+            {
+                _shoppingListStorage.Add(shoppingList.Name,shoppingList.Quantity);
+            }
+            catch (Exception e)
+            {
+                throw(new Exception(e.Message));
+            }
         }
 
         public Dictionary<string,int> GetItemsFromShoppingList()
         {
-
-            return _shoppingListStorage;
+             try
+            {
+                return _shoppingListStorage;
+            }
+            catch (Exception e)
+            {
+                throw(new Exception(e.Message));
+            }
         }
 
         public void RemoveItem(string name)
         {
-
-            _shoppingListStorage.Remove(name);
+              try
+            {
+                _shoppingListStorage.Remove(name);
+            }
+            catch (Exception e)
+            {
+                throw(new Exception(e.Message));
+            }
         }
 
         public void UpdateItem(ShoppingListModel shoppingList)
         {
-            _shoppingListStorage[shoppingList.Name] = shoppingList.Quantity;
+              try
+            {
+                _shoppingListStorage[shoppingList.Name] = shoppingList.Quantity;
+            }
+            catch (Exception e)
+            {
+                throw(new Exception(e.Message));
+            }
         }
     }
 }
